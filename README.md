@@ -9,17 +9,24 @@ $ cd backend
 $ mongod
 ```
 
-### Server
+### Server Dev
 ```
 npm run dev
 ```
 
+### Server Production
+To start production server with PM2
+```
+$ npm run production
+```
+#### To real time status PM2
+```
+$ pm2 monit
+```
+
 #### API EX
-[GET] `/api/todos`
-
-[POST] `/api/todos`
-
-[DELETE] `/api/todos/:id`
-
-[PUT] `/api/todos/:id`
+- `[GET] /api/todos`
+- `[POST] /api/todos`
+- `[DELETE] /api/todos/:id`
+- `[PUT] /api/todos/:id`
 
