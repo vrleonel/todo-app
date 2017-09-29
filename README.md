@@ -30,3 +30,21 @@ $ pm2 monit
 - `[DELETE] /api/todos/:id`
 - `[PUT] /api/todos/:id`
 
+
+## Frontend
+Create new `packages.json`
+`npm init -y`
+
+##install
+```
+$ cd ./frontend
+$ npm i
+````
+
+### Start project
+```
+$ npm run dev
+```
+
+
+
