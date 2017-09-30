@@ -33,9 +33,11 @@ $ pm2 monit
 
 ## Frontend
 Create new `packages.json`
-`npm init -y`
+```
+npm init -y
+```
 
-##install
+### Install
 ```
 $ cd ./frontend
 $ npm i
