@@ -13,8 +13,7 @@ export default class Todo extends Component {
     super(props);
 
     this.state = {
-      description: '',
-      list: []
+      description: ''
     };
 
     this.handleAdd = this.handleAdd.bind(this);
@@ -81,7 +80,7 @@ export default class Todo extends Component {
                   handleClear={this.handleClear}
         />
 
-        <TodoList list={this.state.list}
+        <TodoList
                   handleMarkAsDone={this.handleMarkAsDone}
                   handleMarkAsPending={this.handleMarkAsPending}
                   handleRemove={this.handleRemove}
