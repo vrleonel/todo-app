@@ -5,6 +5,14 @@
 $ cd backend
 ```
 ### Mongo
+install mongo
+
+```
+$ brew tap mongodb/brew
+$ brew install mongodb-community@4.2
+```
+other options to install: https://docs.mongodb.com/manual/installation/
+
 ```
 $ mongod
 ```
@@ -47,6 +55,3 @@ $ npm i
 ```
 $ npm run dev
 ```
-
-
-
